@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+<style>
+      .gold {
+    color: #FFD700; /* Hex code for gold */
+    font-size: 25px;
+    
+  }
+
+  a:hover{
+    color: white;
+  }
+</style>
+
+<body>
+
+
+    <nav class="navbar navbar-expand bg-dark text-white" style="height: 50px;">
+
+        <div class="container-fluid">
+
+            <div class="navbar-brand gold">
+                <p>icon</p>
+            </div>
+            <div>
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle gold" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Account</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item gold bg-dark" href="./signup.html">Signup</a></li>
+                     
+                          <li><hr class="dropdown-divider  bg-dark"></li>
+                          <li><a class="dropdown-item gold  bg-dark" href="./signin.html">SignIn</a></li>
+                        </ul>
+                      </li>
+                </ul>
+
+            </div>
+            <div>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="./navbar.html" class="nav-link gold">Home</a></li>
+                </ul>
+
+            </div>
+            <div >
+                <ul class="navbar-nav me-5">
+                    <li class="nav-item me-5"><a href="#" class="nav-link gold">Aboutus</a></li>
+                    <li class="nav-item me-5"><a href="#" class="nav-link gold">ContactUs</a></li>
+                    <li class="nav-item me-5"><a href="#" class="nav-link gold">Service</a></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+    </nav>
+
+
+
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

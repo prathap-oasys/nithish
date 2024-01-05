@@ -1,0 +1,15 @@
+
+
+body{
+    background-image: url('./images/nine.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+  
+}
+
+
+      .gold {
+    color: #FFD700; /* Hex code for gold */
+    font-size: 25px;
+    
+  }
